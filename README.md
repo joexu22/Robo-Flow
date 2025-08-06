@@ -36,3 +36,7 @@ To build the initial version of Robo-Flow as a desktop hypervisor, the following
 *   **Computer Vision & Element Detection:** OpenCV is the standard for many computer vision tasks. We can use it for template matching to find simple icons or buttons. For more advanced element detection, a custom-trained machine learning model (using a framework like TensorFlow or PyTorch) could be trained to recognize a wide variety of GUI elements (buttons, text boxes, dropdowns, etc.).
 *   **System Control:** `PyAutoGUI` can be used to control the mouse and keyboard to perform clicks, typing, and other interactions with the GUI elements identified by the computer vision component.
 *   **Orchestration:** A state machine library or a simple event-driven architecture could be used to manage the flow of capturing, analyzing, and acting.
+
+### Architectural Approach
+
+The technical architecture will be designed as a modular "harness". This will allow for different AI and computer vision components to be plugged in and replaced with minimal effort. The goal is to create a system that can be seamlessly upgraded as the underlying AI technology improves. We can start with existing open-source tools and then integrate more advanced models as they become available.
