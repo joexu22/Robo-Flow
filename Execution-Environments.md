@@ -63,13 +63,13 @@ services:
 
 ## Comparison: Replit vs. Docker
 
-| Feature               | Replit                                                              | Docker                                                               |
-| --------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Ease of Use**       | ⭐⭐⭐⭐⭐ (Extremely user-friendly for web-based apps)               | ⭐⭐⭐ (Requires more setup and knowledge of containers)               |
-| **Portability**       | ⭐⭐⭐ (Tied to the Replit platform, but code is portable)            | ⭐⭐⭐⭐⭐ (Runs on any machine with Docker and the required hardware) |
-| **GPU Support**       | ⭐⭐ (Possible with paid plans and advanced Nix config, but not a core feature) | ⭐⭐⭐⭐⭐ (Excellent and well-documented support via NVIDIA Container Toolkit) |
-| **Scalability**       | ⭐⭐⭐ (Scales within the Replit ecosystem)                          | ⭐⭐⭐⭐⭐ (Industry standard for scalable deployments with Kubernetes)   |
-| **Cost**              | Free tier available, with paid plans for more compute.              | Open-source, but you pay for the underlying infrastructure (e.g., cloud VMs). |
+| Feature         | Replit                                                             | Docker                                                                              |
+|-----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| **Ease of Use** | ⭐⭐⭐⭐⭐ (Extremely user-friendly for web-based apps)               | ⭐⭐⭐ (Requires more setup and knowledge of containers)                              |
+| **Portability** | ⭐⭐⭐ (Tied to the Replit platform, but code is portable)            | ⭐⭐⭐⭐⭐ (Runs on any machine with Docker and the required hardware)                   |
+| **GPU Support** | ⭐⭐ (Possible with paid plans and advanced Nix config, but not a core feature) | ⭐⭐⭐⭐⭐ (Excellent and well-documented support via NVIDIA Container Toolkit) |
+| **Scalability** | ⭐⭐⭐ (Scales within the Replit ecosystem)                          | ⭐⭐⭐⭐⭐ (Industry standard for scalable deployments with Kubernetes)                  |
+| **Cost**        | Free tier available, with paid plans for more compute.              | Open-source, but you pay for the underlying infrastructure (e.g., cloud VMs).       |
 
 ## Jules's Integration Capabilities
 
