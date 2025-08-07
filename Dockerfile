@@ -4,10 +4,6 @@ FROM dorowu/ubuntu-desktop-lxde-vnc
 # Switch to root user to install software
 USER root
 
-# Update and install Firefox
-RUN apt-get update && \
-    apt-get install -y firefox
-
 # Set a default VNC password.
 # It's recommended to change this for security.
 ENV VNC_PASSWORD=password
